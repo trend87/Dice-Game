@@ -1,10 +1,10 @@
 body {
     background-color: #393E46;
+    font-family: 'Rubik', sans-serif;
   }
 
 h1 {
     margin: 30px;
-    font-family: 'Indie Flower', cursive;
     text-shadow: 5px 0 #232931;
     font-size: 4rem;
     color: #4ECCA3;
@@ -19,7 +19,6 @@ h1 {
 p {
     font-size: 2rem;
     color: #4ECCA3;
-    font-family: 'Indie Flower', cursive;
   }
 .dice{
     display: inline-block;
@@ -44,7 +43,6 @@ button{
 footer{
     color: white;
     text-align: center;
-    font-family: 'Indie Flower', cursive;
     margin-top: 2rem;
 }
 
