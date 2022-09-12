@@ -11,8 +11,10 @@ function Refresh(){
     } else if(randomNumber1 === randomNumber2){
         document.getElementById("title").textContent = "It's a Tie "
     
-    }else if(randomNumber1 > randomNumber2){
+    }else if (randomNumber1 > randomNumber2){
         document.getElementById("title").textContent = "Player 1 Wins"
+    } else {
+        console.log("error")
     }
 
     document.getElementById("btn").textContent = "Play Again"
