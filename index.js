@@ -16,5 +16,4 @@ function Refresh(){
     }
 
     document.getElementById("btn").textContent = "Play Again"
-
 }
